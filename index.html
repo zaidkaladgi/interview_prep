@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prep Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="m">
+
+    <aside class="x">
+      <h2>PrepFlow</h2>
+
+      <ul>
+        <li>Dashboard</li>
+        <li>Tasks</li>
+        <li>Focus</li>
+        <li>Tracker</li>
+        <li>Analytics</li>
+      </ul>
+    </aside>
+
+    <main class="y">
+
+      <nav class="n">
+
+        <div>
+          <h1>Interview Preparation Dashboard</h1>
+          <p id="g"></p>
+        </div>
+
+        <button id="k">Theme</button>
+
+      </nav>
+
+      <section class="topBox">
+
+        <div class="box">
+          <h3>Total Tasks</h3>
+          <h2 id="tt">0</h2>
+        </div>
+
+        <div class="box">
+          <h3>Completed</h3>
+          <h2 id="cc">0</h2>
+        </div>
+
+        <div class="box">
+          <h3>DSA Solved</h3>
+          <h2 id="dd">0</h2>
+        </div>
+
+        <div class="box">
+          <h3>Productivity</h3>
+          <h2 id="pp">0%</h2>
+        </div>
+
+      </section>
+
+      <section class="mid">
+
+        <div class="left">
+
+          <div class="card">
+
+            <h2>Task Manager</h2>
+
+            <div class="taskAdd">
+              <input type="text" id="i" placeholder="Enter task">
+              <button id="b">Add</button>
+            </div>
+
+            <div id="t"></div>
+
+          </div>
+
+          <div class="card">
+
+            <h2>Activity Feed</h2>
+
+            <div id="l"></div>
+
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="card">
+
+            <h2>Pomodoro</h2>
+
+            <div class="timer">
+              <h1 id="tm">25:00</h1>
+            </div>
+
+            <div class="btns">
+              <button id="s">Start</button>
+              <button id="p">Pause</button>
+              <button id="r">Reset</button>
+            </div>
+
+          </div>
+
+          <div class="card">
+
+            <h2>DSA Tracker</h2>
+
+            <div class="dsaBox">
+              <button id="m1">-</button>
+              <span id="d1">0</span>
+              <button id="m2">+</button>
+            </div>
+
+          </div>
+
+          <div class="card">
+
+            <h2>Progress</h2>
+
+            <div class="bar">
+              <div id="bar2"></div>
+            </div>
+
+            <p id="txt">0% completed</p>
+
+          </div>
+
+          <div class="card">
+
+            <h2>Quote</h2>
+
+            <p id="q">Loading...</p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
